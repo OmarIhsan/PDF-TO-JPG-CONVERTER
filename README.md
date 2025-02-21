@@ -1,32 +1,32 @@
-# Medical Quizzes Telegram Bot
+# PDF to JPG Converter
 
-A Telegram bot designed to help medical students access quizzes and study materials for various subjects. The bot provides interactive menus, direct quiz links, and ensures users are subscribed to the `MedicalQuizzesTeam` channel.
+A desktop application built with Python and Tkinter to convert PDF files into high-quality JPG images. Users can select multiple PDFs, customize DPI and quality settings, and save the output to a specified folder.
 
 ---
 
 ## Features
-- **Interactive Menus**: Navigate through subjects, subtopics, and lectures.
-- **Quiz Links**: Direct links to quizzes for specific lectures.
-- **Channel Subscription Check**: Ensures users are subscribed to the `MedicalQuizzesTeam` channel.
-- **Simple Web Server**: Includes an Express server for testing.
+- **Batch Conversion**: Convert multiple PDF files at once.
+- **Customizable Settings**: Adjust DPI and JPG quality for optimal output.
+- **User-Friendly Interface**: Simple and intuitive GUI built with Tkinter.
+- **Organized Output**: Saves images in folders named after the original PDF files.
 
 ---
 
 ## How to Use
-1. Start the bot by sending `/start`.
-2. Ensure you are subscribed to the `MedicalQuizzesTeam` channel.
-3. Select a subject (e.g., Anatomy, Physiology, etc.).
-4. Choose a subtopic and lecture to get a direct link to the quiz.
+1. Launch the application.
+2. Select one or more PDF files using the "Select PDF Files" button.
+3. Choose an output folder using the "Select Output Folder" button.
+4. Adjust DPI and quality settings as needed.
+5. Click "Convert to JPG" to start the conversion process.
 
 ---
 
 ## Setup Instructions
 
 ### Prerequisites
-- Node.js installed on your machine.
-- A Telegram bot token from [BotFather](https://core.telegram.org/bots#botfather).
+- Python 3.x installed on your machine.
 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/medical-quizzes-bot.git
+   git clone https://github.com/your-username/pdf-to-jpg-converter.git
