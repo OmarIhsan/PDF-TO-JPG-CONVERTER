@@ -1,0 +1,5 @@
+PyMuPDF (fitz): For PDF processing and image extraction.
+
+Pillow (PIL): For image manipulation and saving.
+
+tkinter: For the graphical user interface (included with Python).
